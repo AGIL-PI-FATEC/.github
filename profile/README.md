@@ -1,4 +1,8 @@
-# PROJETO ÁGIL - GESTÃO DE ESTOQUE HOSPITALAR E MICROEMPRESAS
+## PROJETO ÁGIL - GESTÃO DE ESTOQUE HOSPITALAR E MICROEMPRESAS
+
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/354921793?s=200&v=4" />
+</div>
 
 ### 1. INTRODUÇÃO E OBJETIVO
 O **ÁGIL** é um sistema web voltado a clínicas hospitalares e microempresas com dificuldades no controle de inventário, para reduzir divergências informacionais, desperdícios e a centralização do acesso em um único terminal ou colaborador. O objetivo é oferecer uma plataforma intuitiva, responsiva e de alto desempenho que centralize o controle de produtos, movimentações e dados atualizados, interligando front-end, back-end e banco de dados relacional.
