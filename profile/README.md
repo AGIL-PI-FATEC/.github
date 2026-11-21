@@ -1,38 +1,45 @@
-# 🏥 ÁGIL — Gestão Inteligente de Estoque Hospitalar e Farmacêutico
+# PROJETO ÁGIL - GESTÃO DE ESTOQUE HOSPITALAR E MICROEMPRESAS
 
-Projeto Integrador desenvolvido pelos alunos do curso de **Desenvolvimento de Software Multiplataforma (DSM)** da **FATEC Indaiatuba**.
+### 1. INTRODUÇÃO E OBJETIVO
+O **ÁGIL** é um sistema web voltado a clínicas hospitalares e microempresas com dificuldades no controle de inventário, para reduzir divergências informacionais, desperdícios e a centralização do acesso em um único terminal ou colaborador. O objetivo é oferecer uma plataforma intuitiva, responsiva e de alto desempenho que centralize o controle de produtos, movimentações e dados atualizados, interligando front-end, back-end e banco de dados relacional.
 
-O **ÁGIL** é uma solução web focada no controle, rastreabilidade e movimentação de insumos hospitalares e farmacêuticos, trazendo segurança, histórico auditável e agilidade para a gestão de estoque.
+### 2. O CONCEITO A.G.I.L
+- **Agilidade:** Capacidade de responder de forma rápida e eficiente às demandas e às operações de entrada e saída de itens.
+- **Ganho:** Melhorias em eficiência operacional, otimização do tempo, aproveitamento de espaço e eficácia dos processos.
+- **Inovação:** Uso de tecnologias modernas e aperfeiçoamento contínuo da gestão de estoque.
+- **Logística:** Planejamento e execução estratégica da movimentação de produtos e insumos.
 
----
+### 3. DIFERENCIAIS TÉCNICOS
+- **Front-end:** React JS, JavaScript, HTML5 e CSS3 (design minimalista, responsivo para desktop e smartphone, com fontes Aileron, Poppins e Bricolage Grotesque).
+- **Back-end e Banco de Dados:** API em Java com Spring Boot e persistência em banco de dados relacional MySQL.
+- **Identidade Visual e UX:** Interface limpa, alto contraste e navegação estruturada por menu lateral, aplicando boas práticas de usabilidade e conformidade com a LGPD.
+- **Versionamento e Deploy:** Git e GitHub na organização `AGIL-PI-FATEC`, com aplicação web hospedada na Vercel.
 
-## 📦 Repositórios da Organização
+### 4. DESAFIO DE MERCADO
+Clínicas e microempresas enfrentam perdas de insumos, desorganização de estoque e falta de rastreabilidade; em ambientes hospitalares, falhas no controle de medicamentos e materiais podem trazer riscos graves. O **ÁGIL** vincula a movimentação de estoque à identidade do colaborador e ao registro de operações, tornando o rastreio mais transparente e seguro.
 
-| Repositório | Descrição | Tecnologias Principais |
-| :--- | :--- | :--- |
-| [**`front-end-AGIL`**](https://github.com/AGIL-PI-FATEC/front-end-AGIL) | Interface web da aplicação, dashboards e fluxos operacionais | JavaScript, React |
-| [**`back-end-AGIL`**](https://github.com/AGIL-PI-FATEC/back-end-AGIL) | API REST, regras de negócio, autenticação e persistência | Java, Spring Boot, MySQL |
-| [**`AGIL-project-legacy`**](https://github.com/AGIL-PI-FATEC/AGIL-project-legacy) | Protótipo inicial e histórico da evolução do projeto | HTML, CSS |
+### 5. PÚBLICO E PERSONA
+Foco B2B em micro e pequenas empresas, especialmente clínicas e gestores de suprimentos, com foco inicial na região de Indaiatuba/SP.  
+**Exemplo de Persona:** **Atena**, 42 anos, gestora de clínica multiespecializada em Indaiatuba, que busca eliminar compras duplicadas e falta de organização acessando o sistema com rapidez pelo notebook ou celular.
 
----
+### 6. MODELO DE NEGÓCIO
+Proposta **SaaS** (Software as a Service) com acesso acessível para microempresas, prevendo planos/mensalidades, licenciamento, relatórios/alertas e canais como site institucional, redes sociais e WhatsApp Business.
 
-## 🛠️ Stack Tecnológica
+### 7. FUNCIONALIDADES E TELAS
+- **Acesso e Perfis:** Login, cadastro de gestor, gestão de funcionários (cadastro, edição e exclusão pelo gestor) e edição de perfil.
+- **Produtos e Estoque:** Cadastro, edição, exclusão, busca de produtos, registro de entrada e saída e alertas de estoque mínimo.
+- **Histórico, Notificações e Ajuda:** Histórico de movimentações com download, central de notificações e área de Ajuda (FAQ).
+- **Telas Mapeadas no Projeto:** Home Page, Login, Cadastro, Tela Inicial, Produtos, Histórico, Notificações, Funcionários e Ajuda.
 
-* **Front-end:** React, JavaScript, HTML5, CSS3 (Hospedado na Vercel)
-* **Back-end:** Java, Spring Boot, Spring Security (JWT)
-* **Banco de Dados:** MySQL
-* **Versionamento & Documentação:** Git, GitHub
+### 8. REPOSITÓRIOS E ACESSO
+- **Organização GitHub:** https://github.com/AGIL-PI-FATEC
+- **Aplicação na Vercel:** https://agil-two.vercel.app/
+- **Repositórios da Org:** `front-end-AGIL`, `back-end-AGIL` e `AGIL-project-legacy`.
 
----
-
-## 📂 Estrutura de Documentação e Banco de Dados
-
-Os artefatos técnicos do projeto estão organizados nos repositórios da organização:
-* **`/docs`** — Diagramas UML (Caso de Uso, Classe, Sequência), DER, Modelo Lógico e especificações de requisitos.
-* **`/database`** — Scripts SQL de criação (`DDL`), manipulação/carga (`DML`) e testes de integridade referencial.
-
----
-
-## 👥 Equipe — FATEC Indaiatuba
-
-Projeto desenvolvido colaborativamente pela equipe **AGIL-PI-FATEC** (5 integrantes).
+### 9. EQUIPE
+Projeto Integrador do curso de **Desenvolvimento de Software Multiplataforma (DSM)** — **FATEC Indaiatuba** (Orientador: Prof. Sergio Donisete Clauss):
+- Alice de Góes Maria
+- Henrique Corrêa Magalhães Prates
+- Livia Mayumi Hayashida
+- Sara Rossi Bacherolo
+- Vincenzo Cirilo
